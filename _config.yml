@@ -1,8 +1,23 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: SSTDV Project
+description: Unified documentation portal for SSTDV-Project research software
 theme: just-the-docs
 
-url: https://hyunsoo0o0o0.github.io/My-little-docs
+url: https://hyunsoo0o0o0.github.io/My-little-docs/
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  SSTDV Project: https://hyunsoo0o0o0.github.io/My-little-landing-page/
+  GitHub: https://github.com/SSTDV-Project
+
+nav:
+  - home: /
+  - Tutorials:
+    - tutorials/index.md
+    - tutorials/brain-imaging.md
+    - tutorials/breast-cancer.md
+    - tutorials/environment.md
+  - Software References:
+    - documentations/index.md
+    - documentations/brainshapetoolkit.md
+    - documentations/diffam.md
+    - documentations/vcm.md
+  - About: about.md
